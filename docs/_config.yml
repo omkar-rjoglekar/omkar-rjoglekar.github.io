@@ -20,8 +20,8 @@
 
 name: Omkar Joglekar
 email: omkarrj98@gmail.com
-description: >
-  Research Engineer specializing in Multi-Robot Systems, AI, and Sensor Fusion. Passionate about advancing intelligent autonomous systems and pursuing a PhD.
+# description: >
+#   Research Engineer specializing in Multi-Robot Systems, AI, and Sensor Fusion. Passionate about advancing intelligent autonomous systems and pursuing a PhD.
 baseurl: ""
 url: "https://omkarjoglekar.github.io"
 theme: minima
