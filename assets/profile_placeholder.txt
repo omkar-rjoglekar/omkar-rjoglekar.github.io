@@ -1,0 +1,10 @@
+Please replace this placeholder with your actual profile picture.
+
+Recommended specifications:
+- Filename: profile.jpg
+- Square image (1:1 aspect ratio)
+- Minimum dimensions: 500x500 pixels
+- Format: JPG or PNG
+- Professional headshot preferred
+
+After adding your profile picture, you can delete this text file. 
