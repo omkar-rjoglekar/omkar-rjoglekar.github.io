@@ -43,26 +43,22 @@ a:hover {
   color: var(--hover-color);
 }
 
-/* Classic hyperlink style for inline links */
-.about-text a, .timeline-company a, .timeline-description a, .publication-journal a, .award-description a, .contact-info a:not([class]) {
-  color: #1a0dab !important;
-  text-decoration: underline !important;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-.about-text a:hover, .timeline-company a:hover, .timeline-description a:hover, .publication-journal a:hover, .award-description a:hover, .contact-info a:not([class]):hover {
-  color: #174ea6 !important;
-  text-decoration: underline !important;
-}
-
 /* Keep button and nav links styled as buttons */
 .header-links a,
 nav a,
 .btn,
 .btn-outline {
   text-decoration: none !important;
-  color: inherit;
+}
+
+.btn {
+  background-color: #fff;
+  color: var(--primary-color) !important;
+}
+
+.btn-outline {
+  border: 2px solid #fff;
+  color: #fff !important;
 }
 
 /* Header */
@@ -450,4 +446,17 @@ footer {
     flex-direction: column;
     gap: 10px;
   }
+} 
+
+/* Classic hyperlink style for inline links - moved to end for max specificity */
+.about-text a, .timeline-company a, .timeline-description a, .publication-journal a, .award-description a, .contact-info a:not([class]) {
+  color: #1a0dab !important;
+  text-decoration: underline !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.about-text a:hover, .timeline-company a:hover, .timeline-description a:hover, .publication-journal a:hover, .award-description a:hover, .contact-info a:not([class]):hover {
+  color: #174ea6 !important;
+  text-decoration: underline !important;
 } 
