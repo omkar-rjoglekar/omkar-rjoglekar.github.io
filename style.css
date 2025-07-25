@@ -44,16 +44,16 @@ a:hover {
 }
 
 /* Classic hyperlink style for inline links */
-main a, .about-text a, .timeline-company a, .timeline-description a, .publication-journal a, .award-description a, .contact-info a:not([class]) {
-  color: #1a0dab;
-  text-decoration: underline;
+.about-text a, .timeline-company a, .timeline-description a, .publication-journal a, .award-description a, .contact-info a:not([class]) {
+  color: #1a0dab !important;
+  text-decoration: underline !important;
   font-weight: 500;
   transition: color 0.2s;
 }
 
-main a:hover, .about-text a:hover, .timeline-company a:hover, .timeline-description a:hover, .publication-journal a:hover, .award-description a:hover, .contact-info a:not([class]):hover {
-  color: #174ea6;
-  text-decoration: underline;
+.about-text a:hover, .timeline-company a:hover, .timeline-description a:hover, .publication-journal a:hover, .award-description a:hover, .contact-info a:not([class]):hover {
+  color: #174ea6 !important;
+  text-decoration: underline !important;
 }
 
 /* Keep button and nav links styled as buttons */
